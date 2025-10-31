@@ -1,0 +1,14 @@
+name = "pgvector"
+description = "pgvector examples for Ada"
+version = "0.1.0-dev"
+
+authors = ["Andrew Kane"]
+maintainers = ["Andrew Kane <andrew@ankane.org>"]
+licenses = "MIT"
+website = "https://github.com/pgvector/pgvector-ada"
+tags = []
+
+executables = ["pgvector"]
+
+[[depends-on]]
+gnatcoll_postgres = "^25.0.0"
