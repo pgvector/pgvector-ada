@@ -11,4 +11,4 @@ tags = []
 executables = ["pgvector"]
 
 [[depends-on]]
-gnatcoll_postgres = "^25.0.0"
+gnatcoll_postgres = "^26.0.0"
